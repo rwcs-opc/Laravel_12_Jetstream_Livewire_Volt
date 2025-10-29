@@ -20,11 +20,9 @@ It provides secure authentication, user management, and real-time interactivity 
 **💡 Ideal For:**
 Developers looking to learn or prototype **full-stack Laravel applications** with real-time interactivity using Livewire + Volt + Jetstream authentication.
 
----
-
-Would you like me to make a **one-line version** (for README title or repo description) or a **detailed README.md** version with setup instructions?
 
 
+# install
 laravel new laravel_12_jetstream_Livewire_volt
 
    _                               _
