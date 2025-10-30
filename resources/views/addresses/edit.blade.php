@@ -1,4 +1,4 @@
-@extends('layouts.app_modern')
+@extends('layouts.app_admin2')
 
 @section('content')
 <div class="container mt-4">
@@ -14,22 +14,26 @@
                 <div class="row mb-3">
                     <div class="col-md-6">
                         <label class="form-label fw-semibold">Address</label>
-                        <input type="text" name="address" class="form-control" value="{{ old('address', $address->address) }}" required>
+                        <input type="text" name="address" class="form-control"
+                            value="{{ old('address', $address->address) }}" required>
                     </div>
                     <div class="col-md-6">
                         <label class="form-label fw-semibold">City</label>
-                        <input type="text" name="city" class="form-control" value="{{ old('city', $address->city) }}" required>
+                        <input type="text" name="city" class="form-control" value="{{ old('city', $address->city) }}"
+                            required>
                     </div>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col-md-4">
                         <label class="form-label fw-semibold">State</label>
-                        <input type="text" name="state" class="form-control" value="{{ old('state', $address->state) }}">
+                        <input type="text" name="state" class="form-control"
+                            value="{{ old('state', $address->state) }}">
                     </div>
                     <div class="col-md-4">
                         <label class="form-label fw-semibold">Country</label>
-                        <input type="text" name="country" class="form-control" value="{{ old('country', $address->country) }}">
+                        <input type="text" name="country" class="form-control"
+                            value="{{ old('country', $address->country) }}">
                     </div>
                     <div class="col-md-4">
                         <label class="form-label fw-semibold">Pin</label>

@@ -1,9 +1,8 @@
-@extends('layouts.app_admin_flexy_bs5')
-{{-- @extends('layouts.app_modern') --}}
-{{-- @extends('layouts.app') --}}
+@extends('layouts.app_admin2')
 
+@section('title','Addresses List')
 @section('content')
-<div class="container mt-4">
+<div class="container mt-1">
     <div class="card shadow-sm border-0">
         <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
             <h4 class="mb-0">My Addresses</h4>
