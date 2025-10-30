@@ -35,9 +35,7 @@ class Edit extends Component
 
     public function render()
     {
-        // return view('livewire.posts.edit')->layout('components.layouts.app.sidebar', [
-        //     'title' => 'Edit Post',
-        // ]);
+
         return view('livewire.posts.edit')
             ->layout('components.layouts.app', ['title' => 'Edit Post']);
     }

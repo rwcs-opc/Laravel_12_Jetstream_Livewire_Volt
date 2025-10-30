@@ -69,4 +69,12 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class);
     }
+
+    /**
+     * Relationship: A user can have multiple addresses.
+     */
+    public function addresses()
+    {
+        return $this->hasMany(Address::class);
+    }
 }

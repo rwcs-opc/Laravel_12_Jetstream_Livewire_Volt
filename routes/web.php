@@ -8,7 +8,9 @@ use App\Livewire\Posts\Index as PostIndex;
 use App\Livewire\Posts\Create as PostCreate;
 use App\Livewire\Posts\Edit as PostEdit;
 use App\Livewire\Posts\Show as PostShow;
+use App\Http\Controllers\AddressController;
 
+Route::resource('addresses', AddressController::class)->middleware(['auth']);
 
 Route::get('/', function () {
     return view('welcome');

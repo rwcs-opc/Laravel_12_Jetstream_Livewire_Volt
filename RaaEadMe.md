@@ -101,3 +101,18 @@ php artisan make:factory PostFactory --model=Post
 
 php artisan db:seed --class=PostSeeder
 php artisan db:seed
+
+
+# sqlite3 cli
+sqlite3 database/database.sqlite
+sqlite> .schema
+sqlite> .exit
+
+
+# user
+- raa@gmail.com Smit#12345
+
+# templates
+- https://themewagon.com/theme-category/admin-dashboard/
+- https://themewagon.github.io/materially-free-react-admin-template/
+- https://themewagon.github.io/tailadmin-vuejs/
