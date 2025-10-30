@@ -11,6 +11,8 @@ use App\Livewire\Posts\Show as PostShow;
 use App\Http\Controllers\AddressController;
 
 Route::resource('addresses', AddressController::class)->middleware(['auth']);
+Route::view('/testing/test1', 'testing.test1');
+Route::view('/flexy-template-index', 'testing.flexy_template');
 
 Route::get('/', function () {
     return view('welcome');

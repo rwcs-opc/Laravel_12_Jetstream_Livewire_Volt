@@ -1,3 +1,6 @@
+# run
+composer run dev
+
 Here’s a short, clear summary you can use for your project **`laravel_12_jetstream_Livewire_volt`** 👇
 
 ---
