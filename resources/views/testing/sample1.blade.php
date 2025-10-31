@@ -3,6 +3,7 @@
 
 @section('title','Sample View')
 
+
 @section('content')
 <div class="row">
     <div class="col-6">

@@ -207,3 +207,20 @@ To integrate the TailAdmin Free Tailwind CSS React Admin Dashboard Template into
 
 This integration allows Laravel to serve APIs and Blade views while React (TailAdmin template) handles the UI as a Single Page Application embedded in a Blade layout.
 
+
+# Mantis layout
+- public/templates/Mantis-Bootstrap-1.0.0/dist/dashboard/index.html
+- /Users/raa/raa-imp/php_projects/laravel_12_jetstream_Livewire_volt/public/templates/Mantis-Bootstrap-1.0.0/dist/dashboard/index.html
+
+
+- resources/views/layouts/app_mantis.blade.php
+- resources/views/partials/mantis_layout/sidebar.blade.php
+
+
+# refresh
+php artisan view:clear
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan event:clear
+php artisan cache:clear
