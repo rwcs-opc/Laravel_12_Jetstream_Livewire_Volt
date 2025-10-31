@@ -20,6 +20,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::get('/test-bs5', function () {
+    return view('testing.test_bs5');
+})->name('test.bs5');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');

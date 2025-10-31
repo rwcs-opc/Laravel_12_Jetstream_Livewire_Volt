@@ -216,6 +216,9 @@ This integration allows Laravel to serve APIs and Blade views while React (TailA
 - resources/views/layouts/app_mantis.blade.php
 - resources/views/partials/mantis_layout/sidebar.blade.php
 
+# app_bs5_layout
+- resources/views/layouts/app_bs5_layout.blade.php
+- resources/views/partials/bs5_layout_partials
 
 # refresh
 php artisan view:clear
