@@ -15,6 +15,8 @@ Route::view('/testing/test1', 'testing.test1');
 Route::view('/flexy-template-index', 'testing.flexy_template');
 Route::view('/sample-page', 'testing.sample1');
 Route::view('/mantis-template', 'testing.mantis');
+Route::view('/quantam-template', 'testing.quantam_lite.index');
+Route::view('/flat-able-template', 'testing.flat_able.index');
 
 Route::get('/', function () {
     return view('welcome');

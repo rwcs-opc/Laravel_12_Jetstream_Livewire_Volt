@@ -220,6 +220,10 @@ This integration allows Laravel to serve APIs and Blade views while React (TailA
 - resources/views/layouts/app_bs5_layout.blade.php
 - resources/views/partials/bs5_layout_partials
 
+- public/templates/quantam-lite
+- resources/views/testing/quantam_lite/index.blade.php
+- Mantis-Bootstrap-1.0.0          flat-able-lite                  flexy-bootstrap-lite-1.0.0      quantam-lite
+
 # refresh
 php artisan view:clear
 php artisan cache:clear
