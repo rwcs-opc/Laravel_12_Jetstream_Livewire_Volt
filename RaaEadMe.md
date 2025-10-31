@@ -224,3 +224,7 @@ php artisan config:clear
 php artisan route:clear
 php artisan event:clear
 php artisan cache:clear
+
+composer dump-autoload
+
+composer run dev
